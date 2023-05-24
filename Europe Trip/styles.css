@@ -1,3 +1,50 @@
 /* This is our stylesheet */
 
+/* The first thing to do in the stylesheet is to reset all spacing */
+*{
+    margin: 0px;
+    padding: 0px;
+}
 /* We can redefine HTML tags */
+body {
+    background-color: rgb(101, 56, 164);
+    margin-left: 10px;
+    color:rgb(241, 241, 241);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+h1{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+h2{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+ul{
+    margin-left: 30px;
+}
+/* Formatting links */
+a:link{
+    color: rgb(235, 131, 80);
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+a:visited{
+    color: rgb(211, 102, 48);
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+a:hover{
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
