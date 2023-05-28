@@ -5,44 +5,67 @@
     margin: 0px;
     padding: 0px;
 }
+/* setting up the Font */
+@font-face {
+    font-family: Deafult;
+    src: url(MADEINFINITY\ PERSONALUSE-Light.otf);
+}
+@font-face {
+    font-family: Links;
+    src: url(MADEINFINITY\ PERSONALUSE-Regular.otf);
+}
+@font-face {
+    font-family: Mac;
+    src: url(BlinkMacSystemFont-Black.otf);
+}
 /* We can redefine HTML tags */
 body {
-    background-color: rgb(101, 56, 164);
+    background-color: rgb(178, 230, 212);
     margin-left: 10px;
-    color:rgb(241, 241, 241);
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    color:rgb(80, 65, 54);
 }
 h1{
+    color: rgb(182, 36, 79);
     margin-bottom: 30px;
     margin-top: 20px;
+    font-family: Mac;
 }
 h2{
+    color: rgb(182, 36, 79);
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
+    font-family: Mac;
 }
 ul{
-    margin-left: 30px;
+    margin-left: 40px;
+    font-family: Deafult;
+}
+p{
+    font-family: Deafult;
 }
 /* Formatting links */
 a:link{
-    color: rgb(235, 131, 80);
+    color: rgb(182, 36, 79);
     text-decoration: none;
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: Links;
 }
 a:visited{
-    color: rgb(211, 102, 48);
+    color: rgb(182, 36, 79);
     text-decoration: none;
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: Links;
 }
 a:hover{
     text-decoration: underline;
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: Links;
 }
 img{
     margin-top: 20px;
