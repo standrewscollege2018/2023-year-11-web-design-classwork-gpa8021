@@ -15,37 +15,38 @@
     src: url(MADEINFINITY\ PERSONALUSE-Regular.otf);
 }
 @font-face {
-    font-family: Mac;
-    src: url(BlinkMacSystemFont-Black.otf);
+    font-family: Titles;
+    src: url(MADEINFINITY\ PERSONALUSE-Medium.otf);
 }
 /* We can redefine HTML tags */
 body {
     background-color: rgb(178, 230, 212);
     margin-left: 10px;
-    color:rgb(80, 65, 54);
 }
 h1{
     color: rgb(182, 36, 79);
     margin-bottom: 30px;
     margin-top: 20px;
-    font-family: Mac;
+    font-family: Titles;
 }
 h2{
     color: rgb(182, 36, 79);
     margin-bottom: 20px;
     margin-top: 20px;
-    font-family: Mac;
+    font-family: Titles;
 }
 ul{
     margin-left: 40px;
     font-family: Deafult;
+    color:rgb(34,56,67);
 }
 p{
     font-family: Deafult;
+    color:rgb(34,56,67);
 }
 /* Formatting links */
 a:link{
-    color: rgb(182, 36, 79);
+    color: rgb(34,56,67);
     text-decoration: none;
     display: inline-block;
     margin-top: 10px;
@@ -53,7 +54,7 @@ a:link{
     font-family: Links;
 }
 a:visited{
-    color: rgb(182, 36, 79);
+    color: rgb(34,56,67);
     text-decoration: none;
     display: inline-block;
     margin-top: 10px;
