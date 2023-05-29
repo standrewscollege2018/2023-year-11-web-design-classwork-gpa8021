@@ -19,20 +19,42 @@
     src: url(MADEINFINITY\ PERSONALUSE-Medium.otf);
 }
 /* We can redefine HTML tags */
+.intro {
+    background-color: rgb(178, 230, 212);
+    
+}
+.container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.uk {
+    background-color: rgb(130, 192, 204);
+    padding: 10px 15px;
+}
+.italy {
+    background-color: rgb(209, 255, 198);
+    padding: 10px 15px;
+}
+.greece {
+    background-color: rgb(0, 175, 181);
+    padding: 10px 15px;
+}
+.france {
+    background-color: rgb(218, 65, 103);
+    padding: 10px 15px;
+}
 body {
     background-color: rgb(178, 230, 212);
-    margin-left: 10px;
 }
 h1{
     color: rgb(182, 36, 79);
-    margin-bottom: 30px;
-    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     font-family: Titles;
 }
 h2{
     color: rgb(182, 36, 79);
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 10px;
     font-family: Titles;
 }
 ul{
