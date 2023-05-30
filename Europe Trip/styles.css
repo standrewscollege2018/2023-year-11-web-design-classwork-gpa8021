@@ -21,7 +21,7 @@
 /* We can redefine HTML tags */
 .intro {
     background-color: rgb(178, 230, 212);
-    
+    text-align: center;
 }
 .container {
     display: grid;
