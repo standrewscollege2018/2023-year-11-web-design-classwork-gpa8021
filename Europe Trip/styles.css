@@ -32,7 +32,7 @@
     padding: 10px 15px;
 }
 .italy {
-    background-color: rgb(209, 255, 198);
+    background-color: rgb(180,227,61);
     padding: 10px 15px;
 }
 .greece {
@@ -40,11 +40,11 @@
     padding: 10px 15px;
 }
 .france {
-    background-color: rgb(218, 65, 103);
+    background-color: rgb(247,169,168);
     padding: 10px 15px;
 }
 body {
-    background-color: rgb(178, 230, 212);
+    background-color: rgb(255,203,119);
 }
 h1{
     color: rgb(182, 36, 79);
