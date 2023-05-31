@@ -19,69 +19,60 @@
     src: url(MADEINFINITY\ PERSONALUSE-Medium.otf);
 }
 /* We can redefine HTML tags */
-.intro {
-    background-color: rgb(178, 230, 212);
-    text-align: center;
-}
 .container {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px;
 }
-.uk {
-    background-color: rgb(130, 192, 204);
-    padding: 10px 15px;
-}
-.italy {
-    background-color: rgb(180,227,61);
-    padding: 10px 15px;
-}
-.greece {
-    background-color: rgb(0, 175, 181);
-    padding: 10px 15px;
-}
-.france {
+.card {
     background-color: rgb(247,169,168);
-    padding: 10px 15px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 body {
     background-color: rgb(255,203,119);
+    padding: 15px;
 }
 h1{
-    color: rgb(182, 36, 79);
+    color: rgb(34, 116, 165);
     margin-bottom: 10px;
-    margin-top: 10px;
     font-family: Titles;
+    margin-left: 10px;
 }
 h2{
-    color: rgb(182, 36, 79);
+    color: rgb(34, 116, 165);
     margin-bottom: 10px;
     font-family: Titles;
+    margin-left: 10px;
 }
 ul{
     margin-left: 40px;
     font-family: Deafult;
-    color:rgb(34,56,67);
+    color:rgb(73, 56, 67);
 }
 p{
     font-family: Deafult;
-    color:rgb(34,56,67);
+    color:rgb(73, 56, 67);
+    margin-left: 10px;
 }
 /* Formatting links */
 a:link{
-    color: rgb(34,56,67);
+    color: rgb(73, 56, 67);
     text-decoration: none;
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: Links;
+    margin-left: 10px;
 }
 a:visited{
-    color: rgb(34,56,67);
+    color: rgb(73, 56, 67);
     text-decoration: none;
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: Links;
+    margin-left: 10px;
 }
 a:hover{
     text-decoration: underline;
@@ -89,8 +80,10 @@ a:hover{
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: Links;
+    margin-left: 10px;
 }
-img{
-    margin-top: 20px;
-    margin-bottom: 20px;
+.card img {
+    max-width: 100%;
+    height: auto;
 }
+
