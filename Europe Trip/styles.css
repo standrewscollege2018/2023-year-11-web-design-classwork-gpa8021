@@ -21,8 +21,8 @@
 /* We can redefine HTML tags */
 .container {
     display: grid;
-    grid-template-columns: 35% 65%;
-    grid-gap: 10px;
+    grid-template-columns: 33% 65%;
+    grid-gap: 30px
 }
 .countrycontainer {
     display: grid;
@@ -38,18 +38,38 @@
 }
 .maincontent {
     background-color: rgb(213, 137, 111);
-    border-radius: 10px;
     overflow: hidden;
-    padding: 10px;
-    border: 1px rgb(238, 235, 211) solid;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+}
+.sidebar {
+    margin-top: 10px;
+    border:1px rgb(238, 235, 211) solid;
+    border-radius: 10px;
+    padding: 15px;
+    
 }
 .sidebar p {
     text-align: left;
     margin-left: 10px;
+    padding: 10px;
 }
 .maincontent p {
     text-align: left;
     margin-left: 10px;
+}
+.sidebar a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.maincontent a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card a {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .card h2 {
     color: rgb(51, 65, 57);
@@ -80,6 +100,7 @@ h1{
     margin-bottom: 20px;
     font-family: Titles;
     text-align: center;
+    font-size: 60px;
 
 }
 h2{
@@ -102,8 +123,6 @@ a:link{
     color: rgb(238, 235, 211);
     text-decoration: none;
     display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 10px;
     font-family: Links;
     text-align: left;
     margin-left: 10px;
@@ -112,8 +131,6 @@ a:visited{
     color: rgb(238, 235, 211);
     text-decoration: none;
     display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 10px;
     font-family: Links;
     text-align: left;
     margin-left: 10px;
@@ -121,8 +138,6 @@ a:visited{
 a:hover{
     text-decoration: underline;
     display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 10px;
     font-family: Links;
     text-align: left;
     margin-left: 10px;
